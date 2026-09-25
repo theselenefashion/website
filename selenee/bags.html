@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crochet Bags — SELENE</title>
+<meta name="description" content="Explore SELENE handmade crochet bags, from everyday carry pieces to occasion styles.">
+<meta name="theme-color" content="#f5f3ef">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header" id="siteHeader">
+  <div class="header-left">
+    <a class="contact-link" href="contact.html"><span class="contact-plus">+</span> CONTACT US</a>
+  </div>
+  <a href="index.html" class="logo" aria-label="SELENE home">SELENE</a>
+  <div class="header-right">
+    <button class="header-action" id="bagBtn" type="button" aria-label="Open bag" aria-controls="bagDrawer" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8.5h14l-1 12H6l-1-12Z"/><path d="M8 8.5V6a4 4 0 0 1 8 0v2.5"/></svg>
+      <span class="sr-only">Bag</span><span class="bag-count" id="bagCount">0</span>
+    </button>
+    <button class="header-action" id="accountBtn" type="button" aria-label="Account" aria-controls="accountPanel" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20c.8-3.7 3-5.5 6.5-5.5s5.7 1.8 6.5 5.5"/></svg>
+      <span class="sr-only">Account</span>
+    </button>
+    <button class="header-action" id="searchBtn" type="button" aria-label="Search" aria-controls="searchPanel" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"/><path d="m16 16 5 5"/></svg>
+      <span class="sr-only">Search</span>
+    </button>
+    <button class="header-action menu-trigger" id="menuBtn" type="button" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>MENU</span>
+    </button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <button class="panel-close" id="closeMenu" type="button">CLOSE</button>
+  <div class="menu-inner">
+    <p class="menu-kicker">SELENE FASHION</p>
+    <nav>
+      <a href="index.html">HOME</a><a href="shop.html">SHOP ALL</a>
+      <a href="bags.html">BAGS</a>
+      <a href="tops.html">TOPS</a>
+      <a href="lookbook.html">LOOKBOOK</a>
+      <a href="about.html">ABOUT</a>
+    </nav>
+  </div>
+</div>
+<div class="search-panel" id="searchPanel" aria-hidden="true">
+  <button class="panel-close" id="closeSearch" type="button">CLOSE</button>
+  <div class="search-inner">
+    <p class="section-label">SEARCH SELENE</p>
+    <input id="searchInput" type="search" placeholder="Search bags, tops..." autocomplete="off">
+    <div id="searchResults" aria-live="polite"></div>
+  </div>
+</div>
+<div class="account-panel" id="accountPanel" aria-hidden="true"><button class="panel-close" id="closeAccount" type="button">CLOSE</button><div class="account-inner"><p class="section-label">ACCOUNT</p><h2>WELCOME.</h2><p>Save a simple preview profile in this browser. This storefront does not provide secure sign-in.</p><div class="account-panel-actions"><a href="account.html" class="text-link">OPEN / CREATE PREVIEW PROFILE</a><a href="orders.html" class="text-link">MY ORDERS</a></div></div></div>
+<aside class="bag-drawer" id="bagDrawer" aria-hidden="true" aria-label="Shopping bag">
+  <div class="bag-head"><h2>YOUR BAG</h2><button id="closeBag" type="button">CLOSE</button></div>
+  <div id="bagItems" aria-live="polite"><p class="empty-bag">Your bag is empty.</p></div>
+  <div class="bag-bottom"><div class="bag-total"><span>TOTAL</span><strong id="bagTotal">₹0</strong></div><button class="checkout-btn" type="button">CHECKOUT</button></div>
+</aside>
+<main id="main-content">
+
+<section class="collection-editorial-hero" aria-label="SELENE COLLECTION">
+  <img src="bags-hero.png" alt="Two campaign portraits featuring SELENE navy crochet bags, with the message Bags That Move With You.">
+</section>
+<section class="collection-section page-products">
+  <div class="section-heading"><div><p class="section-label">THE COLLECTION</p><h2>CROCHET BAGS</h2></div></div>
+<div class="product-grid">
+
+<article class="product-card reveal" data-name="Bow Crochet Bag" data-price="2490" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=0">
+    <img class="product-main" src="bags/bag1.jpeg" alt="Bow Crochet Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Bow Crochet Bag</h3><p>₹2,490</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Ribbon Bow Bag" data-price="2590" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=1">
+    <img class="product-main" src="bags/bag2.jpeg" alt="Ribbon Bow Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Ribbon Bow Bag</h3><p>₹2,590</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Midnight Shoulder Bag" data-price="2790" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=2">
+    <img class="product-main" src="bags/bag3.jpeg" alt="Midnight Shoulder Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Midnight Shoulder Bag</h3><p>₹2,790</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Noir Chain Bag" data-price="2690" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=3">
+    <img class="product-main" src="bags/bag4.jpeg" alt="Noir Chain Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Noir Chain Bag</h3><p>₹2,690</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Soft Cream Crochet Bag" data-price="2390" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=4">
+    <img class="product-main" src="bags/bag5.jpeg" alt="Soft Cream Crochet Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Soft Cream Crochet Bag</h3><p>₹2,390</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Pearl Handle Bag" data-price="2490" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=5">
+    <img class="product-main" src="bags/bag6.jpeg" alt="Pearl Handle Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Pearl Handle Bag</h3><p>₹2,490</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Everyday Crochet Tote" data-price="2290" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=6">
+    <img class="product-main" src="bags/bag7.jpeg" alt="Everyday Crochet Tote" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Everyday Crochet Tote</h3><p>₹2,290</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Ivory Mini Bag" data-price="2190" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=7">
+    <img class="product-main" src="bags/bag8.jpeg" alt="Ivory Mini Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Ivory Mini Bag</h3><p>₹2,190</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Woven Evening Bag" data-price="2890" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=8">
+    <img class="product-main" src="bags/bag9.jpeg" alt="Woven Evening Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Woven Evening Bag</h3><p>₹2,890</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Chocolate Crochet Bag" data-price="2590" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=9">
+    <img class="product-main" src="bags/bag10.jpeg" alt="Chocolate Crochet Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Chocolate Crochet Bag</h3><p>₹2,590</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+
+<article class="product-card reveal" data-name="Classic Shoulder Bag" data-price="2690" data-category="bags">
+  <a class="product-image product-link" href="product.html?category=bags&id=10">
+    <img class="product-main" src="bags/bag11.jpeg" alt="Classic Shoulder Bag" loading="lazy">
+    
+    <span class="hover-label">VIEW PRODUCT</span>
+  </a>
+  <div class="product-info"><h3>Classic Shoulder Bag</h3><p>₹2,690</p></div>
+  <button class="quick-add" type="button">ADD TO BAG</button>
+</article>
+</div>
+</section>
+
+</main>
+<footer class="site-footer"><div class="footer-top"><div class="footer-brand"><h2>SELENE</h2><p>Your imagination,<br>my crochet hook.</p><a class="footer-contact" href="mailto:contact@selenefashion.in">contact@selenefashion.in</a><a class="footer-contact" href="tel:+918796365349">8796365349</a></div><div class="footer-column"><h3>SHOP</h3><a href="shop.html">SHOP ALL</a><a href="bags.html">BAGS</a><a href="tops.html">TOPS</a><a href="lookbook.html">LOOKBOOK</a></div><div class="footer-column"><h3>HELP</h3><a href="contact.html">CONTACT US</a><a href="orders.html">MY ORDER</a><a href="faqs.html">FAQs</a><a href="sitemap.html">SITEMAP</a></div><div class="footer-column"><h3>FOLLOW</h3><a href="https://www.instagram.com/theselene.fashion/" target="_blank" rel="noopener">INSTAGRAM</a></div></div><div class="footer-bottom"><p>© <span id="year"></span> SELENE FASHION</p><p>HANDMADE WITH CARE</p></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
